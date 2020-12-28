@@ -18,6 +18,8 @@ Website, consisting of webpages and a postgresql database, created using the Dja
 **0.9.0** 12-28-2020 - Initial beta release
 **1.0.0** 12-TBD-2020 - Initial release
 
+## Testing
+Tested the API with JWT authentication using terminal based HTTPie.  First, information was requested without providing any credentials... and access was denied.  Next, a token was requested with username/password supplied.  An access and refresh token were supplied.  Using one of the tokens provided, another request for data was sent.  The API determined correct access and returned the requested data successfully.
 
 ## Credits and Collaborations
 - intentionally left blank
